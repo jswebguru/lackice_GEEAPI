@@ -2,9 +2,6 @@
 
 This repository contains the source code (tensorflow) and pre-trained model corresponding to the paper:<br>
 
->[Lake Ice Detection from Sentinel-1 SAR with Deep Learning](https://www.isprs-ann-photogramm-remote-sens-spatial-inf-sci.net/V-3-2020/409/2020/) (presented at the ISPRS Congress, 2020, virtual conference)<br>
-> by Manu Tom, Roberto Aguilar, Pascal Imhof, Silvan Leinss, Emmanuel Baltsavias and Konrad Schindler
-
 ![segmentation_sar](figures/qual_tran_sils.jpg)
 
 This work is part of the [Lake Ice Project (Phase 2)](https://prs.igp.ethz.ch/research/current_projects/integrated-lake-ice-monitoring-and-generation-of-sustainable--re.html) funded by MeteoSwiss in the GCOS Switzerland framework. Here is the link to [Phase 1](https://prs.igp.ethz.ch/research/completed_projects/integrated-monitoring-of-ice-in-selected-swiss-lakes.html) of the same project.
@@ -94,48 +91,3 @@ Takes ~8 hours on GeForceGTX1080Ti
 An example code to download the images of lake Sils from winter 2017-18 (with VV polarisation) is available on: https://code.earthengine.google.com/?scriptPath=users%2Frobertoaguilar%2Flakeice%3Asentinel1. You will need to create a GEE account.
 
 * To download several images, run the script: data_scripting/gee_browser.js on the browser once GEE tasks are ready (after running the downloading script).
-
-## Citation
-
-Kindly cite our paper, if you use this project in your research:
-
-> @article{tom_aguilar_2020:isprs,<br>
->&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;author    = {Manu Tom and Roberto Aguilar and Pascal Imhof and Silvan Leinss and Emmanuel Baltsavias and Konrad Schindler},<br>
->&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;title     = {Lake Ice Detection from Sentinel-1 SAR with Deep Learning},<br>
->&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;journal   = {ISPRS Ann. Photogramm. Remote Sens. Spatial Inf. Sci.},<br>
->&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;year      = {2020},<br>
->&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;volume    = {V-3-2020},<br>
->&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;pages     = {409--416},<br>
-}
-
-## Useful links
-1. Multi-sensor lake ice monitoring with machine (deep) learning. [Project github page](https://github.com/czarmanu/lake-ice-ml).
-2. Lake ice monitoring with webcams and crowd-sourced images with Deep-U-Lab. [Github repo (tensorflow code, pre-trained model)](https://github.com/czarmanu/deeplab-lakeice-webcams). 
-3. Tom, M., Suetterlin, M., Bouffard, D., Rothermel, M., Wunderle, S., Baltsavias, E., 2019. [Integrated monitoring of ice
-in selected Swiss lakes](https://arxiv.org/abs/2008.00512). Final Project Report
-4. Tom et al. 2020, [Ice monitoring in Swiss lakes from optical satellites and webcams using machine learning](https://www.mdpi.com/2072-4292/12/21/3555), MDPI Remote Sensing, 12(21), 3555
-5. . Tom, M., Wu, T., Baltsavias, E., Schindler, K., 2021. Recent Ice Trends in Swiss Mountain Lakes: 20-year Analysis of MODIS Imagery. [Paper](https://arxiv.org/abs/2103.12434)
-6. . Tom, M., Jiang, Y., Baltsavias, E., Schindler, K., 2021. Learning a Sensor-invariant Embedding of Satellite Data: A Case Study for Lake Ice Monitoring. [Paper](https://arxiv.org/abs/2107.09092)
-7. . Tom, M., Suetterlin, M., Bouffard, D., Rothermel, M., Wunderle, S., Baltsavias, E., 2019. [Integrated monitoring of ice
-in selected Swiss lakes](https://arxiv.org/abs/2008.00512). Final Project Report
-8. Tom, M., Baltsavias, E., Schindler, K., 2020. [Integrated Lake Ice Monitoring and Generation of Sustainable, Reliable, Long Time-Series](https://ethz.ch/content/dam/ethz/special-interest/baug/igp/photogrammetry-remote-sensing-dam/documents/pdf/Misc/Lake_Ice_Project_Final_Report.pdf). Final Project Report
-
-
-## Licence
-
-MIT License
-
-Copyright (c) 2020 ETH Zurich
-
-Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal
-in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
-
-The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
-
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
-SOFTWARE.
-
-Author: Manu Tom
